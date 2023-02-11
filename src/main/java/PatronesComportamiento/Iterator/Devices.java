@@ -1,4 +1,4 @@
-package PatronesComportamiento.PatronIterator;
+package PatronesComportamiento.Iterator;
 
 import java.util.ArrayList;
 

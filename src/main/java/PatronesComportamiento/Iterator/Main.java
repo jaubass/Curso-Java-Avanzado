@@ -1,4 +1,4 @@
-package PatronesComportamiento.PatronIterator;
+package PatronesComportamiento.Iterator;
 
 public class Main {
     public static void main(String[] args) {

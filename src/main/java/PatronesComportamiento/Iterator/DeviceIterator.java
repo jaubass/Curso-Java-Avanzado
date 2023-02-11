@@ -1,4 +1,4 @@
-package PatronesComportamiento.PatronIterator;
+package PatronesComportamiento.Iterator;
 
 public interface DeviceIterator {
 
