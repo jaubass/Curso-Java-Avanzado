@@ -10,6 +10,11 @@ public class Singleton {
 
     private Singleton() {}
 
+    /**
+     *
+     * @return nos devuelve un objeto singleton, si ya esta creado nos devuelve el mismo y si no lo crea,
+     * pero sólo se creará una instancia del mismo en el uso de la aplicación.
+     */
     public static Singleton getInstance() {
         if (singleton == null) {
             singleton = new Singleton();

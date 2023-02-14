@@ -10,12 +10,8 @@ public class ImprimeMayorYMenor {
 
         int []numbers = {34, -4, 98, -2, 76};
         RefactorImpMayMen(numbers);
-
-        int []numbers2 = {34, -4, 98, -2, 76};
-        Refactor2ImpMayMen(numbers2);
-
-        int []numbers3 = {34, -4, 98, -2, 76};
-        ProgFuncionalImpMayMen(numbers3);
+        Refactor2ImpMayMen(numbers);
+        ProgFuncionalImpMayMen(numbers);
     }
 
     /** Buscar el número mayor y menor dentro de un Array de enteros
@@ -44,7 +40,7 @@ public class ImprimeMayorYMenor {
 
     /**
      * Refactorización del código anterior utilizando el Operador Ternario
-     * @param numbers Array de números enteros
+     * @param numbers es un Array de números enteros
      * @since 12/02/2022
      */
     public static void RefactorImpMayMen (int []numbers) {
@@ -68,14 +64,14 @@ public class ImprimeMayorYMenor {
     }
 
     /**
-     * Simplificando el for con los dos puntos ":" y modificando el cuerpo de la función.
-     * @param numbers2
+     * Simplificando el bucle for con los dos puntos ":" y modificando el cuerpo de la función.
+     * @param numbers
      */
-    public static void Refactor2ImpMayMen (int []numbers2) {
+    public static void Refactor2ImpMayMen (int []numbers) {
         int max = 0;
-        int min = numbers2[0];
+        int min = numbers[0];
 
-        for (int i : numbers2) {
+        for (int i : numbers) {
             max = max < i ? i : max;
             min = min > i ? i : min;
         }
@@ -86,12 +82,12 @@ public class ImprimeMayorYMenor {
     }
 
     /**
-     * Utilizando programación funcional
-     * @param numbers3
+     * Utilizando programación funcional para simplificar aún más la función
+     * @param numbers es un Array de enteros
      */
-    public static void ProgFuncionalImpMayMen (int []numbers3) {
-        int max = Arrays.stream(numbers3).reduce(0, (a, b) -> a > b ? a : b);
-        int min = Arrays.stream(numbers3).reduce(numbers3[0], (a, b) -> a < b ? a : b);
+    public static void ProgFuncionalImpMayMen (int []numbers) {
+        int max = Arrays.stream(numbers).reduce(0, (a, b) -> a > b ? a : b);
+        int min = Arrays.stream(numbers).reduce(numbers[0], (a, b) -> a < b ? a : b);
 
         System.out.println("Function ProgFuncionalImpMayMen");
         System.out.println("The max number is " + max + " and the minimum number is " + min + ".");
