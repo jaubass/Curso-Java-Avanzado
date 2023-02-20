@@ -1,4 +1,4 @@
-package com.jaubass.demospringrest.models;
+package demoSpringRest.models;
 
 public class demoSpringRest {
 

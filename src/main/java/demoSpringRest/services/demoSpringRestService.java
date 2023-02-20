@@ -1,6 +1,6 @@
-package com.jaubass.demospringrest.services;
+package demoSpringRest.services;
 
-import com.jaubass.demospringrest.models.demoSpringRest;
+import demoSpringRest.models.demoSpringRest;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;

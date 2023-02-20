@@ -1,4 +1,4 @@
-package com.jaubass.demospringrest.config;
+package demoSpringRest.config;
 
 import jakarta.ws.rs.ApplicationPath;
 import org.glassfish.jersey.server.ResourceConfig;
