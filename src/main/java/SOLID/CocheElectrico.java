@@ -7,4 +7,13 @@ public class CocheElectrico extends Coche {
         super(marca, modelo);
         this.bateria = bateria;
     }
+
+    @Override
+    public String toString() {
+        return "CocheElectrico{" +
+                "marca'" + getMarca() + '\'' + " " +
+                "modelo'" + getModelo() + '\'' + " " +
+                "bateria='" + bateria + '\'' + " " +
+                '}';
+    }
 }
