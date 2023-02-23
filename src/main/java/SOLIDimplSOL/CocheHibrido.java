@@ -1,4 +1,4 @@
-package SOLID;
+package SOLIDimplSOL;
 
 public class CocheHibrido extends Coche {
     String autonomia;

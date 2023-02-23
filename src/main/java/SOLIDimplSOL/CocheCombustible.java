@@ -1,4 +1,4 @@
-package SOLID;
+package SOLIDimplSOL;
 
 public class CocheCombustible extends Coche {
     String tipoCombustible;

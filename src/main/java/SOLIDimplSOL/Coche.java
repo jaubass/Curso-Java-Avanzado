@@ -1,4 +1,4 @@
-package SOLID;
+package SOLIDimplSOL;
 
 abstract class Coche {
     private String marca;

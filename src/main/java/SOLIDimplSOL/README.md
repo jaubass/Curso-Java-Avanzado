@@ -1,4 +1,4 @@
-## Durante estos ejercicios se va a trabajar sobre las letras S, O y L de los principios SOLID, deberás:
+## Durante estos ejercicios se va a trabajar sobre las letras S, O y L de los principios SOLIDimplSOL, deberás:
 
 - Crea una clase coche aplicándole el principio de responsabilidad única (S).
 
