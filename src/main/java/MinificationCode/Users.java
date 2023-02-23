@@ -1,4 +1,4 @@
-package SOLID;
+package MinificationCode;
 
 import java.util.ArrayList;
 

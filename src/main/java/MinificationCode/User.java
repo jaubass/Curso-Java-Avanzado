@@ -1,4 +1,4 @@
-package SOLID;
+package MinificationCode;
 
 public class User {
     public String name;

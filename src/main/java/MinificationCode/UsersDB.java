@@ -1,4 +1,4 @@
-package SOLID;
+package MinificationCode;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -49,9 +49,9 @@ public class UsersDB {
     }
 
     private String separateUsers(User user) {
-        return user.name + ","
-                + user.surname + ","
-                + user.age + ","
+        return user.name + ", "
+                + user.surname + ", "
+                + user.age + ", "
                 + user.mail + "";
     }
 
