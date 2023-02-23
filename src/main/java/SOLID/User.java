@@ -1,4 +1,4 @@
-package CleanArquitectureMinification;
+package SOLID;
 
 public class User {
     public String name;
